@@ -30,6 +30,8 @@ public class RajkaranSingh {
         this.x = x;
     }
 
-    
+    public String toString(){
+        return ("Integer value is " + getX());
+    }
     
 }
