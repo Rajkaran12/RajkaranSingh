@@ -11,11 +11,25 @@ package rajkaran.singh;
  */
 public class RajkaranSingh {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    
+    private int x;
+        
+    public RajkaranSingh(){
+        this.x=2;
     }
+    public RajkaranSingh(int x){
+        this.x=x;
+    }
+    
+    public int getX() {
+        return x;
+    }
+
+    
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    
     
 }
